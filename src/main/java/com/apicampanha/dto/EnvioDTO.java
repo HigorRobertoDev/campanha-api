@@ -8,6 +8,7 @@ import lombok.Data;
 public class EnvioDTO {
 	
 	private Long id;
+	private Long id_campanha;
 	private String celular;
 	private int status;
 	private LocalDate dt_status;
